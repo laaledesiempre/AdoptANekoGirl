@@ -4,12 +4,13 @@ import { createHashHistory } from 'history';
 import './app.css'
 
 export function App() {
-
+  
   return (
     <>
       <main>
         <Router history={createHashHistory()}>
           <Home path="/" />
+          <Adoption path="/adoption" />
         </Router>
       </main>
     </>
