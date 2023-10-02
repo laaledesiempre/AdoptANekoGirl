@@ -1,0 +1,26 @@
+.home-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem auto;    
+    gap: 1rem;
+}
+
+.home-wrapper article{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.home-wrapper:first-child img {
+    width: 5rem;
+
+}
+
+.home-wrapper article button{
+    font-size: 2rem;
+    width: 100%;
+}
